@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const API_URL = "http://localhost:4000/api/books";
+const API_URL = "https://backend-di6s.onrender.com/api/books";
 
 const BookDetail = () => {
   const { id } = useParams();
