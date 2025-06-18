@@ -15,7 +15,7 @@ const Login = () => {
     setError('');
 
     try {
-      const response = await fetch('https://backend-five-delta-37.vercel.app/api/auth/login', {
+      const response = await fetch('https://backend-di6s.onrender.com/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
