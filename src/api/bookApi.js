@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://backend-five-delta-37.vercel.app/api/books";
+const BASE_URL = "https://backend-di6s.onrender.com/api/books";
 
 export const getAllBooks = () => axios.get(BASE_URL);
 export const getBookById = (id) => axios.get(`${BASE_URL}/${id}`);
